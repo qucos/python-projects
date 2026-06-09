@@ -1,0 +1,12 @@
+PicFrame=float(input("Number of 8x10 picture frames : "))
+
+PriceFrame = (PicFrame * 19.95)
+SalesTax = (PriceFrame *0.075)
+Total = (PriceFrame + SalesTax)
+SalesTax = round(SalesTax, 2)
+PriceFrame = round(PriceFrame, 2)
+Total = round(Total, 2)
+print("\n")
+print("Price of 8x10 picture frames :", PriceFrame)
+print("Sales Tax (7.5%) :", SalesTax)
+print("Total :", Total)
